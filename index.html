@@ -1,1 +1,108 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f8f8f8;
+            color: #444;
+            line-height: 1.6;
+            font-size: 18px;
+        }
+
+        h1, h2, h3 {
+            margin-top: 0;
+        }
+
+        .jumbotron {
+            background-image: url('https://source.unsplash.com/random/1600x900');
+            background-size: cover;
+            height: 80vh;
+        }
+
+        .jumbotron h1 {
+            color: #fff;
+            font-size: 5rem;
+            margin-top: 20vh;
+        }
+
+        .container {
+            margin-top: -20vh;
+        }
+
+        .card {
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .card-img-top {
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-title {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .card-text {
+            font-size: 1.2rem;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">My CV</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="jumbotron">
+            <div class="container">
+                <h1 class="text-center">Hello, I'm Your Name</h1>
+                <p class="lead text-center">A web developer with a passion for creating beautiful and functional websites.</p>
+            </div>
+        </section>
+    </main>
+       
