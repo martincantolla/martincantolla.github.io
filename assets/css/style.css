@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(230, 250, 255);
+}
+
+#services, #contact{
+    background-color: aquamarine;
+}
+
+
+header {
+    background-image: url(https://i.redd.it/xk8aax50vk971.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    background-blend-mode: overlay;
+    
+  }
+
+  header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(250, 50, 250, 0.10);
+    background-blend-mode: lighten;
+  }
