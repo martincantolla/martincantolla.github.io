@@ -33,3 +33,11 @@ header {
     background-color: rgba(250, 50, 250, 0.10);
     background-blend-mode: lighten;
   }
+
+  .card-img-top{
+    height: 250px;
+  }
+
+  .card-body{
+    min-height: 230px;
+  }
